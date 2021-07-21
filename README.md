@@ -20,6 +20,8 @@ npm run serve
 npm run build
 ```
 
+After the project is done building, there is often 2 css files generated: `app.css` and `chunk-vendors.css`. Only the `app.css` is needed for embedding a small app on Hubspot post. However, the `app.css` needs to be processed through the rem-to-px tool so that it looks correct within the Hubspot site.
+
 ### Lints and fixes files
 
 ```

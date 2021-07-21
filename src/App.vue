@@ -16,7 +16,7 @@ export default defineComponent({
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
-  @tailwind screens;
+  // @tailwind variants;
   font-size: 16px;
 
   p {
